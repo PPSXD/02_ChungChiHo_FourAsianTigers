@@ -26,6 +26,11 @@ button{
     margin-bottom: 50px;
     font-size: 25px;
 }
+
+button:hover{
+    color:#3b3b3b;;
+}
+
 h3{
     margin-top: 20px;
     color:#724711;
@@ -86,6 +91,10 @@ button{
     margin-bottom: 50px;
     font-size: 15px;
 }
+
+button:hover{
+    color: #cc9b02;;
+}
 h3{
     margin-top: 20px;
     color:#3b3b3b;
@@ -96,6 +105,11 @@ p{
     max-width: 400px;
     margin: auto;
 
+}
+
+.year{
+    color:#3b3b3b;
+    font-weight: bold;
 }
 
 .culture_image{
@@ -112,7 +126,7 @@ p{
 }
 h1{
     margin-top: 50px;
-    color:#ffffff;;
+    color:#3b3b3b;
     text-align: center;
     font-weight: bold;
 }

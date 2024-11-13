@@ -123,7 +123,7 @@ h2 {
     left: -1.5rem;
 }
 }
-@media(max-width:768px){
+@media(max-width:1033px){
     .about-center{
         max-width: 768px;
         margin: 0 auto;
@@ -148,7 +148,7 @@ h2 {
 /* ==========
 notice
 ========== */
-@media(min-width:768px){
+@media(min-width:1033px){
 .section-center.notices-center {
     display: flex;
     margin-bottom: var(--navbar-Height);
@@ -173,7 +173,7 @@ article.notice {
     font-size: 0.75rem;
 }
 }
-@media(max-width:768px){
+@media(max-width:1033px){
     .section-center.notices-center {
         display: flex;
         flex-direction: column;
@@ -201,7 +201,7 @@ article.notice {
 /* #info{
     display: flex;
 } */
-@media(min-width:768px){
+@media(min-width:1033px){
     .section-center.featured-center{
         display: flex;
         flex-wrap: wrap;
@@ -265,7 +265,7 @@ margin-top: 10px;
     font-size: 0.75rem;
 }
 }
-@media(max-width:768px){
+@media(max-width:1033px){
     .section-center.featured-center{
         display: flex;
         flex-direction: column;   
@@ -443,13 +443,13 @@ img.logo-link {
     transform: translateX(0);
 } */
 
-@media (min-width: 768px) {
+@media (min-width: 1033px) {
     .nav-mobile {
         display: none;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1033px) {
     /* navbar */
     .nav-list {
         display: none;
@@ -521,7 +521,7 @@ img.logo-link {
 Hero section1
 ========= */
 
-@media(min-width:768px){
+@media(min-width:1033px){
 .hero {
     display: flex;
     height: 85vh;
@@ -575,7 +575,7 @@ Hero section1
     background: var(--clr-primary-2);
 }
 }
-@media(max-width:768px){
+@media(max-width:1033px){
 
     .hero {
         display: flex;
@@ -596,7 +596,7 @@ Hero section1
     .hero-banner h1 {
         color: var(--clr-primary-6);
         text-transform: capitalize;
-        font-size: 2.5rem;
+        font-size: 1rem;
         padding-top: 30vh;
     }
 
@@ -627,4 +627,17 @@ Hero section1
         background: var(--clr-primary-2);
     }
     
+}
+
+@media(min-width:1033px){
+    .video{
+        margin: auto; max-width: 800px;
+    }
+}
+
+
+@media(max-width:1033px){
+    .video{
+        margin: auto; max-width: 350px;
+    }
 }
