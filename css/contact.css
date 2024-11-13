@@ -648,6 +648,10 @@ Hero section1
 
 
 @media(max-width:1033px){
+    .contact-image{
+        margin-top: 15vh;
+    }
+
     .video{
         margin: auto; max-width: 350px;
     }
