@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/timeline.css">
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+    <title>Avenue of Stars History</title>
+</head>
+<body>
+    <div class="container">
+        <div class="swiper-container-wrapper swiper-container-wrapper--timeline">
+            <!-- Timeline -->
+            <ul class="swiper-pagination-custom">
+                <li class='swiper-pagination-switch first active'><span class='switch-title'>1982</span></li>
+                <li class='swiper-pagination-switch'><span class='switch-title'>2004</span></li>
+                <li class='swiper-pagination-switch'><span class='switch-title'>2015</span></li>
+                <li class='swiper-pagination-switch last'><span class='switch-title'>2019</span></li>
+            </ul>
+            <!-- Progressbar -->
+            <div class="swiper-pagination swiper-pagination-progressbar swiper-pagination-horizontal"></div>
+            <!-- Swiper -->
+            <div class="swiper swiper-container swiper-container--timeline">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><span class="title"><img class="history_image" src="../images/Avenue_of_Stars_1982_v2.png" alt="Avenue of Stars 1982"></span></div>
+                    <div class="swiper-slide"><span class="title"><img class="history_image" src="../images/Avenue_of_Stars_2004_v2.png" alt="Avenue of Stars 2004"></span></div>
+                    <div class="swiper-slide"><span class="title"><img class="history_image" src="../images/Avenue_of_Stars_2015_v2.png" alt="Avenue of Stars 2015"></span></div>
+                    <div class="swiper-slide"><span class="title"><img class="history_image" src="../images/Avenue_of_Stars_2019_v2.png" alt="Avenue of Stars 2019"></span></div>
+                </div>
+            </div>
+        </div>
+        <h1>History</h1>
+        <h3>Establishment</h3>
+        <p>In <span class="year">1982</span>, the New World Group built a promenade along the waterfront around the New World Centre in Tsim Sha Tsui East, Kowloon. In 2004, the Group announced it would spend HK$40 million to build the Avenue of Stars, a project supported by the Hong Kong Tourism Board, Tourism Commission, the Leisure and Cultural Services Department of the Hong Kong Government and the Hong Kong Film Awards Association.</p>
+
+        <p>The avenue was opened to the general public on 28 April <span class="year">2004</span> with an opening ceremony held the previous day, 27 April <span class="year">2004</span>. The opening ceremony was presided over by a number of government and industry figures, including Henry Tang (Financial Secretary), Stephen Ip (Secretary for Economic Development and Labour), Patrick Ho (Secretary of Home Affairs), Selina Chow (Chair of Hong Kong Tourism Board), Manfred Wong (Director/Actor), and Cheng Yu-tung (Chair of New World Group); in which the privately funded avenue was handed over to the Hong Kong SAR government as public property. At opening, the avenue honoured an initial 73 inductees elected by the Hong Kong Film Awards Association and the readers of City Entertainment.</p>
+        
+       <h3>Redevelopment controversy</h3>
+        <p>After having managed the avenue for 11 years, its contract is due to expire. It was announced in August <span class="year">2015</span> that the Leisure and Cultural Services Department of the Hong Kong government would redevelop and expand the avenue jointly with the company. The Hong Kong government declared that the enhancement project would contain limited commercial appeal, and no luxury shops or high-end restaurants would be added. The walkway, very popular with tourists, is to be closed off and relocated to the Tsim Sha Tsui East Waterfront Podium Garden temporarily for three years while the expansion is undertaken.</p>
+
+        <p>The decision to award the contract for the redevelopment to the company without putting it out to tender, on the justification that the project was non-profit, sparked controversy locally. Residents' groups and other development companies owning properties adjacent to the walk expressed discontent, whilst the LCSD claimed that consultations with the local district council had been favourable. In an apparent attempt to de-fuse the public furore at the apparent collusion between government and big business, the government promised a public consultation.</p>
+        
+        <h3>Renovation</h3>
+        <p>On 31 January <span class="year">2019</span>, the Avenue was reopened to the public after three years of renovation, redesigned by New York High Line architect James Corner Field Operations (JCFO) together with other international and local designers.</p>
+        <div class="timeline" style="text-align: center;">
+        <button onclick="Avenue_of_Stars_previous_page()">Previous page</button>
+        <button onclick="home()">Home</button>
+    </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js'></script>
+    <script src="../js/swiper.js"></script>
+    <script src="../js/page.js"></script>
+</body>
+</html>
