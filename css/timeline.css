@@ -148,17 +148,20 @@ button{
     border: none;
     color: white; 
     border-radius: 25px; 
-    margin-top: 10px;
+    margin-top: 25px;
     text-align: center;
     margin-bottom: 10px;
     font-size: 25px;
 }
-h3{
+.h3{
     margin-top: 20px;
     color:#724711;
+    font-weight: bold;
 }
 p{
     color: #cc9b02;
+    max-width: 800px;
+    margin: auto;
 }
 .year{
     color:#724711;
@@ -192,17 +195,21 @@ button{
     border: none;
     color: #724711; 
     border-radius: 25px; 
-    margin-top: 10px;
+    margin-top: 25px;
     text-align: center;
     margin-bottom: 10px;
     font-size: 15px;
 }
-h3{
+.h3{
     margin-top: 20px;
     color:#3b3b3b;
+    font-weight: bold;
 }
 p{
     color: white;
+    max-width: 400px;
+    margin: auto;
+ 
 }
 .year{
     color:#3b3b3b;
