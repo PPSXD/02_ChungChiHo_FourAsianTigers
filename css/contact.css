@@ -650,33 +650,10 @@ Hero section1
 @media(max-width:1033px){
     .contact-image{
         margin-top: 15vh;
+        max-width: 350px;
     }
 
     .video{
         margin: auto; max-width: 350px;
-    }
-}
-
-
-#waterHolder {
-    margin-top: 5%;
-    /* border: 1px solid black;  */
-}
-
-.navbar.about {
-    box-shadow: var(--dark-shadow);
-}
-
-.water {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-
-@media (max-width: 1033px) {
-    #waterHolder {
-        margin-top: 20%;
     }
 }
