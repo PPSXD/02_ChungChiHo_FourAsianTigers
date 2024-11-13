@@ -26,8 +26,8 @@
         <!-- <div class="desktop-nav"> -->
         <div class="nav-links">
             <ul class="nav-list" id="nav-list">
-                <li><a href="../index.html" class="nav-link">Home</a></li>
-                <!-- <li><a href="#about" class="nav-link">About </a></li> -->
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About </a></li>
                 <!-- <li><a href="#notices" class="nav-link">Notice</a></li> -->
                 <li><a href="#infos" class="nav-link">Info</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -75,11 +75,11 @@
             </button>
             
             <ul class="mobile-nav-list" id="mobile-nav-list">
-                <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
-                <!-- <li><a href="#about" class="mobile-nav-link">About</a></li> -->
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
                 <!-- <li><a href="#notice" class="mobile-nav-link">Notice</a></li> -->
                 <li><a href="#infos" class="mobile-nav-link">Info</a></li>
-                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
                 <!-- <li><a href="../tc/index.html" class="mobile-nav-link" title="繁體中文">繁體中文</a></li>
                 <li><a href="../sc/index.html" class="mobile-nav-link" title="簡體中文">簡體中文</a></li> -->
     
@@ -89,12 +89,30 @@
     <section class="hero" id="home">
         <div class="hero-banner">
             <h1>China, Hong Kong, Avenue of Stars</h1>
-            <video autoplay muted loop style="margin: auto; max-width: 800px;">
+            <video autoplay muted loop class="video">
                 <source src="../video/HongKong.mp4" type="video/mp4">
             </video>
         </div>       
     </section>
     <!-- about -->
+
+    <section class="section" id="about">
+        <div class="section-title">
+            <h2>about <span>Hong Kong</span></h2>
+        </div>
+        <div class="section-center about-center">
+            <div class="about-img">
+                <img src="../HongKong/HongKong.png" class="about-photo" alt="awesome landscape">
+            </div>
+            <article class="about-info">
+                <p class="h3">What is Hong Kong?</p>
+                <p>The Regional Flag of the Hong Kong Special Administrative Region of the People's Republic of China depicts a white stylised five-petal Hong Kong orchid tree (Bauhinia × blakeana) flower in the centre of a Chinese red field. Its original design was unveiled on 4 April 1990 at the Third Session of the Seventh National People's Congress. The current design was approved on 10 August 1996 at the Fourth Plenum of the Preparatory Committee of the Hong Kong Special Administrative Region. The precise use of the flag is regulated by laws passed by the 58th executive meeting of the State Council held in Beijing. The design of the flag is enshrined in Hong Kong's Basic Law, the territory's constitutional document, and regulations regarding the use, prohibition of use, desecration, and manufacture of the flag are stated in the Regional Flag and Regional Emblem Ordinance. The flag of Hong Kong was officially adopted and hoisted on 1 July 1997, during the handover ceremony marking the handover from the United Kingdom back to China.</p>
+                <p><a href="#infos" class="btn">read more</a></p>
+            </article>
+        </div>
+    </section> 
+
+
     <section class="section" id="about">
         <div class="section-title">
             <!-- <h2>about <span>Four Asian Tigers</span></h2> -->
@@ -187,10 +205,10 @@
 <footer class="section footer">
     <ul class="footer-links">
         <li><a href="#home" class="footer-link">Home</a></li>
-        <!-- <li><a href="#about" class="footer-link">About</a></li> -->
+        <li><a href="#about" class="footer-link">About</a></li>
         <!-- <li><a href="#notice" class="footer-link">Notice</a></li> -->
         <li><a href="#info" class="footer-link">Info</a></li>
-        <li><a href="#contact" class="footer-link">Contact</a></li>
+        <li><a href="contact.html" class="footer-link">Contact</a></li>
     </ul>
     <ul class="footer-icons">
         <li>
