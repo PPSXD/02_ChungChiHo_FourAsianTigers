@@ -13,8 +13,8 @@ function HongKong(){
     window.open(`en/HongKong.html` , `_self`);
 }
 
-function TaiBei(){
-    window.open(`en/TaiBei.html` , `_self`);
+function TaiPei(){
+    window.open(`en/TaiPei.html` , `_self`);
 }
 
 function Seoul(){
@@ -30,8 +30,8 @@ function en_HongKong(){
     window.open(`HongKong.html` , `_self`);
 }
 
-function en_TaiBei(){
-    window.open(`TaiBei.html` , `_self`);
+function en_TaiPei(){
+    window.open(`TaiPei.html` , `_self`);
 }
 
 function en_Seoul(){

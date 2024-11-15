@@ -4,7 +4,7 @@ function Avenue_of_Stars_previous_page(){
 }
 
 function TAIPEI_101_previous_page(){
-    window.open(`TaiBei.html` , `_self`)
+    window.open(`TaiPei.html` , `_self`)
 }
 
 function N_Seoul_Tower_previous_page(){

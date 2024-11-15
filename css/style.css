@@ -75,6 +75,7 @@ h2 {
 .section-title h2 {
     text-transform: uppercase;
     color: var(--clr-primary-9);
+    padding-top: 50px;
 }
 
 .section-title span {
