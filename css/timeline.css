@@ -250,6 +250,8 @@ img.logo-link {
         flex-direction: flex-column;
         align-items: center;
         opacity: 0.6;
+        z-index: 7;
+      
     } 
     .mobile-nav-link:hover{
         display: block;
@@ -493,4 +495,15 @@ h1{
     text-align: center;
     font-weight: bold;
 }
+}
+@media (max-width: 768px) {
+    .switch-title{
+        font-size: 10px;
+    }
+    #timeline{
+        z-index: 2;
+    }
+    #progressbar{
+        z-index: 2;
+    }
 }

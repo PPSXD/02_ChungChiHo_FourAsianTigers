@@ -251,6 +251,8 @@ img.logo-link {
         flex-direction: flex-column;
         align-items: center;
         opacity: 0.6;
+        z-index: 7;
+        
     } 
     .mobile-nav-link:hover{
         display: block;
