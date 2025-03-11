@@ -652,3 +652,16 @@ Hero section1
     }
     
 }
+@media(max-width:768px){
+    .swiper .swiper-button-next:after, .swiper .swiper-button-prev:after{
+        font-size: 10px;
+        color: #fff;
+        padding: 20px;
+        font-weight: bold;
+        padding-top: 30px;
+
+    }
+    .hero-banner p{
+        text-align: center;
+    }
+}
