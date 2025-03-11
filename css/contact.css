@@ -647,6 +647,10 @@ Hero section1
     .video{
         margin: auto; max-width: 800px;
     }
+    .btn{
+        color: #fff;
+        font-weight: bold;   
+        }
 }
 
 
@@ -659,4 +663,14 @@ Hero section1
     .video{
         margin: auto; max-width: 350px;
     }
+    .btn{
+        color: #fff;
+        font-weight: bold;   
+        }
 }
+@media (max-width:768px) {
+    .btn{
+    color: #fff;
+    font-weight: bold;   
+    }
+    }
