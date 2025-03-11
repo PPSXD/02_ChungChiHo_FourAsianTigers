@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <title>Four Asian Tigers</title>
 </head>
 <body>
@@ -32,16 +33,6 @@
         </div>
         <div class="nav-icons">
             <ul class="nav-icons-list">
-                <!-- <li>
-                    <a href="../tc/index.html" class="nav-icon">
-                        繁
-                    </a>
-                </li>
-                <li>
-                    <a href="../sc/index.html" class="nav-icon">
-                        簡
-                    </a>
-                </li>-->
                 <li> 
                     <a href="https://www.facebook.com/mayizzatravelandtours/videos/its-time-to-travel-/377541255004911/?_rdr" class="nav-icon">
                         <i class="fa-brands fa-facebook"></i>
@@ -76,20 +67,61 @@
                 <li><a href="#about" class="mobile-nav-link">About</a></li>
                 <li><a href="#notices" class="mobile-nav-link">Notice</a></li>
                 <li><a href="#infos" class="mobile-nav-link">Info</a></li>
-                <li><a href="./en/contact.html" class="mobile-nav-link">Contact</a></li>
-                <!-- <li><a href="../tc/index.html" class="mobile-nav-link" title="繁體中文">繁體中文</a></li>
-                <li><a href="../sc/index.html" class="mobile-nav-link" title="簡體中文">簡體中文</a></li> -->
-    
+                <li><a href="./en/contact.html" class="mobile-nav-link">Contact</a></li>    
             </ul>
         </div>
     </nav>
-    <section class="hero" id="home">
-        <div class="hero-banner">
-            <h1>Four Asian Tigers</h1>
-            <p>The Four Asian Tigers（also known as the Four Asian Dragons or Four Little Dragons in ...</p>
-            <a href="#about" class="btn hero-btn">Explore Asia Travel</a>
+    <section class="container">
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="home" style="background: linear-gradient(var(--clr-primary-6), rgba(0, 0, 0, 0.7)), url('../images/Asia-City.jpg') center/cover no-repeat; display: flex; height: 85vh; width: 98vw; margin-top: 4rem; color: var(--clr-white);">
+                <div class="hero-banner">
+                        <h1>Four Asian Tigers</h1>
+                        <p>The Four Asian Tigers（also known as the Four Asian Dragons or Four Little Dragons in ...</p>
+                        <a href="#about" class="btn hero-btn">EXPLORE ASIA TRAVEL</a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="home" style="background: linear-gradient(var(--clr-primary-6), rgba(0, 0, 0, 0.7)), url('../HongKong/Avenue_of_Stars_2019_v3.png') center/cover no-repeat; display: flex; height: 85vh; width: 98vw; margin-top: 4rem; color: var(--clr-white);">
+                <div class="hero-banner">
+                        <h1>Hong Kong</h1>
+                        <p>Best of it all, it's in Hong Kong</p>
+                        <a href="./en/HongKong.html" class="btn hero-btn">HONG KONG TRAVEL</a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="home" style="background: linear-gradient(var(--clr-primary-6), rgba(0, 0, 0, 0.7)), url('../TaiWan/TAIPEI_101_2020_v3.png') center/cover no-repeat; display: flex; height: 85vh; width: 98vw; margin-top: 4rem; color: var(--clr-white);">
+                <div class="hero-banner">
+                        <h1>Tai Pei</h1>
+                        <p>Waves of Wonder</p>
+                        <a href="./en/TaiPei.html" class="btn hero-btn">TAI PEI TRAVEL</a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="home" style="background: linear-gradient(var(--clr-primary-6), rgba(0, 0, 0, 0.7)), url('../SouthKorea/N_Seoul_Tower_2005_v3.png') center/cover no-repeat; display: flex; height: 85vh; width: 98vw; margin-top: 4rem; color: var(--clr-white);">
+                <div class="hero-banner">
+                        <h1>Seoul</h1>
+                        <p>Seoul, My Soul</p>
+                        <a href="./en/Seoul.html" class="btn hero-btn">SEOUL TRAVEL</a>
+                </div>
+            </div>
+            <div class="swiper-slide" id="home" style="background: linear-gradient(var(--clr-primary-6), rgba(0, 0, 0, 0.7)), url('../Singapore/Merlion_Park_2009_v3.png') center/cover no-repeat; display: flex; height: 85vh; width: 98vw; margin-top: 4rem; color: var(--clr-white);">
+                <div class="hero-banner">
+                        <h1>Singapore</h1>
+                        <p>Passion Made Possible</p>
+                        <a href="./en/Singapore.html" class="btn hero-btn">SINGAPORE TRAVEL</a>
+                </div>
+            </div>
+        
         </div>
-    </section>
+            <div class="swiper-pagination"></div>
+
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+
+            <div class="swiper-scrollbar"></div>
+   
+</div>
+</section>
     <!-- about -->
     <section class="section" id="about">
         <div class="section-title">
@@ -130,7 +162,7 @@
                 <!-- second icon -->
                 <article class="notice">
                     <span class="notice-icon">
-                        <i class="fa-solid fa-plane-arrival"></i>
+                        <i class="fa-solid fa-clock"></i>
                     </span>
                     <div class="notice-info">
                         <h4 class="notice-title">
@@ -159,7 +191,7 @@
                         <h2><span>Four Asian Tigers</span> Info</h2>
                     </div>
         <div class="section-center featured-center">
-             <article class="info-card" onclick="HongKong()">
+             <article class="info-card photo1" onclick="HongKong()">
                 <div class="info-img-container">
                     <img src="./images/Avenue_of_Stars.png"  class="info-img" alt="">
                     <p class="info-place">China, Hong Kong, Avenue of Stars</p>
@@ -176,9 +208,11 @@
                 </ul>
                 </div>
              </article>
-             <article class="info-card" onclick="TaiPei()">
+
+
+             <article class="info-card photo2" onclick="TaiPei()">
                 <div class="info-img-container">
-                    <img src="./images/TAIPEI_101.png" class="info-img" alt="">
+                    <img src="./images/TAIPEI_101.png"  class="info-img" alt="">
                     <p class="info-place">Tai Wan, Tai Pei, TAIPEI 101</p>
                 </div>
                 <div class="info-info">
@@ -193,7 +227,7 @@
                 </ul>
                 </div>
              </article>
-             <article class="info-card" onclick="Seoul()">
+             <article class="info-card photo3" onclick="Seoul()">
                 <div class="info-img-container">
                     <img src="./images/N_Seoul_Tower.png" class="info-img" alt="">
                     <p class="info-place">South Korea, Seoul, N Seoul Tower</p>
@@ -210,7 +244,25 @@
                 </ul>
                 </div>
              </article>
-             <article class="info-card" onclick="Singapore()">
+             <article class="info-card photo4" onclick="Singapore()">
+                <div class="info-img-container" >
+                    <img src="./images/Merlion_Park.png" class="info-img"  alt="">
+                    <p class="info-place">Singapore, Singapore City, Merlion Park</p>
+                </div>
+                <div class="info-info">
+                    <h4>Merlion Park</h4>
+                    <p>Merlion Park, formerly known as the Taipei World Financial Center, is a...</p>
+                </div>
+                <div class="info-footer">
+                   <ul class="info-footer-info">
+                    <li><i class="fa-solid fa-map"></i>Singapore</li>
+                    <li>Singapore City</li>
+                    <li>Merlion Park</li>
+                </ul>
+                </div>
+             </article>
+
+             <article class="info-card photo5" onclick="Singapore()">
                 <div class="info-img-container" >
                     <img src="./images/Merlion_Park.png" class="info-img"  alt="">
                     <p class="info-place">Singapore, Singapore City, Merlion Park</p>
@@ -265,6 +317,25 @@
     </p>
 </footer>
     <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+    autoplay:{
+        delay:3000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+
+    },
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+});
+    </script>
 
 </body>
 </html>

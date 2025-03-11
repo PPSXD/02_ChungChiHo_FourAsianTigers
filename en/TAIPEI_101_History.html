@@ -10,13 +10,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+    <!-- <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'> -->
     <link rel="stylesheet" href="../css/timeline.css">
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+    <!-- <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script> -->
     <title>TAIPEI 101 History</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="../index.html"><img src="../images/logo.svg" class="logo-link" alt="logo"></a>
+        </div>
+
+        <!-- desktop -->
+        <!-- <div class="desktop-nav"> -->
+        <div class="nav-links">
+            <ul class="nav-list" id="nav-list">
+                <li><a href="./TaiPei.html#home" class="nav-link">Home</a></li>
+                <li><a href="./TaiPei.html#about" class="nav-link">About </a></li>
+                <li><a href="./TaiPei.html#notices" class="nav-link">Notice</a></li>
+                <li><a href="./TaiPei.html#infos" class="nav-link">Info</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <ul class="nav-icons-list">
+                <!-- <li>
+                    <a href="../tc/index.html" class="nav-icon">
+                        繁
+                    </a>
+                </li>
+                <li>
+                    <a href="../sc/index.html" class="nav-icon">
+                        簡
+                    </a>
+                </li> -->
+                <li>
+                    <a href="https://www.facebook.com/mayizzatravelandtours/videos/its-time-to-travel-/377541255004911/?_rdr" class="nav-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.amazon.com/Four-Asian-Tigers-Development-Political/dp/0124074405" class="nav-icon">
+                        <i class="fa-brands fa-amazon"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/MBQUa9he-cs?si=s31HvQCyP3ioi6SW" class="nav-icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:admin@FourAsianTigers.com" class="nav-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+        </div> 
+    <!-- </div> -->
+        <!-- mobile hamburger -->
+        <div class="nav-mobile">
+            <button type="button" class="nav-mobile-toggle" id="nav-mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            
+            <ul class="mobile-nav-list" id="mobile-nav-list">
+                <li><a href="./TaiPei.html#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="./TaiPei.html#about" class="mobile-nav-link">About</a></li>
+                <li><a href="./TaiPei.html#notices" class="mobile-nav-link">Notice</a></li>
+                <li><a href="./TaiPei.html#infos" class="mobile-nav-link">Info</a></li>
+                <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+                <!-- <li><a href="../tc/index.html" class="mobile-nav-link" title="繁體中文">繁體中文</a></li>
+                <li><a href="../sc/index.html" class="mobile-nav-link" title="簡體中文">簡體中文</a></li> -->
+    
+            </ul>
+        </div>
+    </nav>
     <div class="container">
         <div class="swiper-container-wrapper swiper-container-wrapper--timeline">
             <!-- Timeline -->
@@ -68,14 +137,51 @@
 
         <p>On 4 January <span class="year">2020</span>, the building had a condolence message in lights for the victims of a helicopter crash, which included a number of senior government officials. On 8 February <span class="year">2020</span>, it was reported that that some passengers of the Diamond Princess cruise liner, quarantined for an outbreak of COVID-19, had visited Taipei 101 on 31 January at which point none exhibited symptoms. On 1 April <span class="year">2020</span>, the shopping center said it was reducing business hours due to the coronavirus pandemic. It had started checking shopper's temperatures in February. On 21 May the building said it would resume normal business hours in June, as the country had effectively limited the spread of COVID-19.</p>
         
-        <div class="timeline" style="text-align: center;">
-        <button onclick="TAIPEI_101_previous_page()">Previous page</button>
-        <button onclick="home()">Home</button>
+        <!-- <div class="timeline" style="text-align: center;"> -->
+        <!-- <button onclick="TAIPEI_101_previous_page()">Previous page</button> -->
+        <!-- <button onclick="home()">Home</button> -->
+    <!-- </div> -->
     </div>
-    </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js'></script>
-    <script src="../js/swiper.js"></script>
-    <script src="../js/page.js"></script>
+    <footer class="section footer">
+        <ul class="footer-links">
+            <li><a href="./TaiPei.html#home" class="footer-link">Home</a></li>
+            <li><a href="./TaiPei.html#about" class="footer-link">About</a></li>
+            <li><a href="./TaiPei.html#notices" class="footer-link">Notice</a></li>
+            <li><a href="./TaiPei.html#info" class="footer-link">Info</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+        <ul class="footer-icons">
+            <li>
+                <a href="https://www.facebook.com/mayizzatravelandtours/videos/its-time-to-travel-/377541255004911/?_rdr" class="footer-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.amazon.com/Four-Asian-Tigers-Development-Political/dp/0124074405" class="footer-icon">
+                    <i class="fa-brands fa-amazon"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://youtu.be/MBQUa9he-cs?si=s31HvQCyP3ioi6SW" class="footer-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:admin@FourAsianTigers.com" class="footer-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+        <p class="copyright">
+            copyright &copy; four asian tigers travel company
+            <span id="date">all right reserved</span>
+        </p>
+    </footer>
+
 </body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js'></script>
+<script src="../js/swiper.js"></script>
+<script src="../js/page.js"></script>
+<script src="../js/app.js"></script>
 </html>

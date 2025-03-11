@@ -329,7 +329,7 @@ margin-top: 10px;
     align-items: center;
     flex-wrap: wrap;
 }
-.tour-footer-info li{
+.info-footer-info li{
     text-transform: capitalize;
     color: var(--clr-primary-5);
     font-size: 0.75rem;
@@ -431,10 +431,11 @@ navbar
 .nav-icon {
     margin: 5px;
     font-size: 1.3rem;
-    color: var(--clr-primary-8);
+    color: var(--clr-primary-6);
 }
 .nav-icon:hover {
     color: var(--clr-primary-8);
+    transition: var(--transition); 
 
 }
 /* logo img set to 100% of the container */
