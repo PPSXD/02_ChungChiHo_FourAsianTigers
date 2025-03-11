@@ -265,7 +265,9 @@ article.notice {
     padding: 1.25rem 1.5rem;
 }
 .info-footer{
-margin-top: 10px;
+    margin-top: 0;
+    padding: 0px 25px 0;
+
 }
 .info-footer-info{
     display: flex;
@@ -325,7 +327,8 @@ margin-top: 10px;
     padding: 1.25rem 1.5rem;
 }
 .info-footer{
-margin-top: 10px;
+    margin-top: 0;
+    padding: 0px 25px 0;
 }
 .info-footer-info{
     display: flex;
@@ -575,7 +578,7 @@ Hero section1
 
 .btn {
     text-transform: uppercase;
-    background: #00b68e;
+    background: var(--clr-primary-5);
     color: #fff;
     font-weight: bold;
     padding: 0.375rem 0.75rem;
@@ -589,8 +592,8 @@ Hero section1
 }
 
 .btn:hover {
-    color: #005f4b;
-    background: #00ffc8;
+    color: var(--clr-primary-9);
+    background:var(--clr-primary-2);
 }
 }
 @media(max-width:1033px){
@@ -629,7 +632,7 @@ Hero section1
     
     .btn {
         text-transform: uppercase;
-        background: #00b68e;
+        background:var(--clr-primary-5);
         color: #fff;
         font-weight: bold;
         padding: 0.375rem 0.75rem;
@@ -643,8 +646,8 @@ Hero section1
     }
     
     .btn:hover {
-        color: #005f4b;
-        background: #00ffc8;
+        color: var(--clr-primary-9);
+        background:var(--clr-primary-2);
     }
     
 }
