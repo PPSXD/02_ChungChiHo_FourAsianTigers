@@ -291,6 +291,8 @@ p{
     /* margin-top: 25px; */
     max-width: 600px;
     margin: auto;
+    font-weight: 400;
+    line-height: 1.5;
 
 }
 .year{
@@ -316,6 +318,9 @@ h1{
     color:#724711;;
     text-align: center;
     font-weight: bold;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-size: 2.5rem;
 }
 
 
