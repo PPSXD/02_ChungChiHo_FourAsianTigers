@@ -27,8 +27,8 @@
     
       .picture-img-a:hover .picture-img-on{
         display: block;
-        -ms-transform: scale(1.2); /* IE 9 */
-        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        -ms-transform: scale(1.2); 
+        -webkit-transform: scale(1.2); 
         transform: scale(1.2); 
 
     
@@ -46,7 +46,7 @@
 
     @media(max-width:1450px){.picture-flex{
       display: flex; 
-      /* flex-direction: row;  */
+
       flex-wrap: wrap; 
       justify-content: space-around;
       box-sizing: border-box;
@@ -68,8 +68,8 @@
     
       .picture-img-a:hover .picture-img-on{
         display: block;
-        -ms-transform: scale(1.2); /* IE 9 */
-        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        -ms-transform: scale(1.2); 
+        -webkit-transform: scale(1.2);
         transform: scale(1.2); 
         transition: transform .10s;
       } 

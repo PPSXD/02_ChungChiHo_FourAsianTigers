@@ -1,4 +1,4 @@
-/* ===========global variable=========== */
+
 :root {
     --clr-primary-1: #ffffc2;
     --clr-primary-2: #fffa89;
@@ -10,15 +10,14 @@
     --clr-primary-8: #86560d;
     --clr-primary-9: #724711;
     --clr-primary-10: #432505;
-    /* define gray shade */
-    /* for paragraph */
+
     --clr-gray-1: #f6f6f6;
     --clr-gray-2: #efefef;
     --clr-gray-3: #dbdbdb;
     --clr-gray-4: #c6c6c6;
     --clr-gray-5: #aeaeae;
     --clr-gray-6: #898989;
-    /* for heading */
+
     --clr-gray-7: #707070;
     --clr-gray-8: #575757;
     --clr-gray-9: #464646;
@@ -163,11 +162,9 @@ color:var(--clr-primary-6);
     }
 
     .form-big-group .form-group{
-    /* display: flex;
-    flex-direction: row;
-    align-items: center; */
+
     justify-content: center;
-    /* flex: 1; */
+
     gap:5px;
 
     
@@ -180,9 +177,7 @@ color:var(--clr-primary-6);
     }
 
 
-    /* .form-group{
-        margin-bottom: 30px;
-    } */
+
     label, select{
         margin-bottom: 5px;
         font-weight: bold;
@@ -265,16 +260,7 @@ color:var(--clr-primary-6);
     }
     
     }
-/* 
-input:invalid,
-textarea:invalid{
-    border-color: red;
-}
 
-input:valid,
-textarea:valid{
-    border-color:  green;
-} */
 
 @media(max-width:600px){
     .form-big-group p{
