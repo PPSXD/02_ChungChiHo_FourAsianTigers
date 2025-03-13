@@ -629,7 +629,7 @@ img.logo-link {
 
 @media(min-width:1033px){
     .video{
-        margin: auto; max-width: 600px;
+        margin: auto; max-width: 800px;
     }
 }
 
