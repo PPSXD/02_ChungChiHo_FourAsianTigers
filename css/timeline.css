@@ -150,6 +150,7 @@ navbar
     text-transform: capitalize;
     color: var(--clr-primary-6);
     font-size: 24px;
+    font-family: var(--ff-primary);
 }
 
 .nav-link:hover {
