@@ -328,7 +328,8 @@ img.logo-link {
           padding: 15px 20px;
           font-size: 18px;
           text-align: center;
-          color: var(--clr-primary-9);
+          color:#cc9b02;
+          font-weight: bold;
         }
   
         .mobile-nav-link:hover {
@@ -343,7 +344,8 @@ img.logo-link {
             font-size: 18px;
             text-align: center;
             background-color: var(--clr-gray-3);
-            color: var(--clr-primary-9);
+            color:#cc9b02;
+          font-weight: bold;
           }
     
           .mobile-nav-link-v2:hover {
@@ -358,7 +360,8 @@ img.logo-link {
             font-size: 18px;
             text-align: center;
             background-color: var(--clr-gray-4);
-            color: var(--clr-primary-9);
+            color:#cc9b02;
+          font-weight: bold;
           }
     
           .mobile-nav-link-v3:hover {
@@ -381,6 +384,8 @@ img.logo-link {
           align-items: center;
           justify-content: start;
           z-index: 2;
+          color:#cc9b02;
+          font-weight: bold;
         }
 
           
@@ -516,15 +521,14 @@ img.logo-link {
       }
 
 
-
       @media(max-width: 450px){
         .mobile-dropdown-toggle {         
-            width: 150px;
+            width: 130px;
          }
   
             
           #mobile-dropdown-toggle {
-              width: 120px;
+              width: 100px;
           }
       }
 
