@@ -331,12 +331,10 @@ img.logo-link {
           color:#cc9b02;
           font-weight: bold;
         }
-  
         .mobile-nav-link:hover {
           background-color: var(--clr-gray-5);
           
         }
-
           
         .mobile-nav-link-v2{
             display: block;
